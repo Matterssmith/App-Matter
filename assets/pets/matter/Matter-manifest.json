@@ -1,0 +1,124 @@
+{
+  "name": "Matter",
+  "description": "A cheerful silver-haired cat companion in a blue checkered hoodie, carrying a teddy bear.",
+  "sprite_version": 2,
+  "atlas_file": "Matter-spritesheet.png",
+  "cell_size": {
+    "width": 192,
+    "height": 208
+  },
+  "atlas_size": {
+    "width": 1536,
+    "height": 2288
+  },
+  "background": "transparent",
+  "columns": 8,
+  "rows": [
+    {
+      "index": 0,
+      "file": "Matter-idle.png",
+      "state": "idle",
+      "frames": 6,
+      "label_es": "Reposo",
+      "directions": null
+    },
+    {
+      "index": 1,
+      "file": "Matter-running-right.png",
+      "state": "running-right",
+      "frames": 8,
+      "label_es": "Desplazamiento a la derecha",
+      "directions": null
+    },
+    {
+      "index": 2,
+      "file": "Matter-running-left.png",
+      "state": "running-left",
+      "frames": 8,
+      "label_es": "Desplazamiento a la izquierda",
+      "directions": null
+    },
+    {
+      "index": 3,
+      "file": "Matter-waving.png",
+      "state": "waving",
+      "frames": 4,
+      "label_es": "Saludo",
+      "directions": null
+    },
+    {
+      "index": 4,
+      "file": "Matter-jumping.png",
+      "state": "jumping",
+      "frames": 5,
+      "label_es": "Salto",
+      "directions": null
+    },
+    {
+      "index": 5,
+      "file": "Matter-failed.png",
+      "state": "failed",
+      "frames": 8,
+      "label_es": "Error o bloqueo",
+      "directions": null
+    },
+    {
+      "index": 6,
+      "file": "Matter-waiting.png",
+      "state": "waiting",
+      "frames": 6,
+      "label_es": "Espera",
+      "directions": null
+    },
+    {
+      "index": 7,
+      "file": "Matter-running.png",
+      "state": "running",
+      "frames": 6,
+      "label_es": "Trabajo activo",
+      "directions": null
+    },
+    {
+      "index": 8,
+      "file": "Matter-review.png",
+      "state": "review",
+      "frames": 6,
+      "label_es": "Revisión",
+      "directions": null
+    },
+    {
+      "index": 9,
+      "file": "Matter-look-directions-000-157.png",
+      "state": "look-directions-000-157",
+      "frames": 8,
+      "label_es": "Mirada en direcciones 000 a 157.5 grados",
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ]
+    },
+    {
+      "index": 10,
+      "file": "Matter-look-directions-180-337.png",
+      "state": "look-directions-180-337",
+      "frames": 8,
+      "label_es": "Mirada en direcciones 180 a 337.5 grados",
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ]
+    }
+  ]
+}
